@@ -1,0 +1,12 @@
+[package]
+name = "rust_ruby"
+version = "0.1.0"
+authors = ["Lev Kokotov <lev.kokotov@instacart.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.54"
+
+[lib]
+name = "rust_ruby"
+crate-type = ["cdylib"]
